@@ -19,6 +19,12 @@ class CadastroAlunos:
 
     def listar(self):
         return [aluno.copy() for aluno in self._alunos]
+    def buscar(self, matricula):
+        matricula = str(matricula).strip()
+        for aluno in self._alunos:
+            if aluno["matricula"] == matricula:
+                return aluno.copy()
+            return None
 
     def remover(self, matricula):
         matricula = str(matricula).strip()

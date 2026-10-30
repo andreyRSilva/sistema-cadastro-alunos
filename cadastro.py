@@ -10,6 +10,8 @@ class CadastroAlunos:
 
         if not nome:
             raise ValueError("o nome não pode ficar vazio")
+        if not any(letra.isalpha() for letra in nome):
+            raise ValueError("o nome deve conter pelo menos uma letra")
         if not matricula:
             raise ValueError("a matrícula não pode ficar vazia")
         if any(a["matricula"] == matricula for a in self._alunos):

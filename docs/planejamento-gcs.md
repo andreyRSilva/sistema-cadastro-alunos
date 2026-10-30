@@ -31,3 +31,15 @@ O repositório remoto no GitHub e as cópias locais permitem recuperar o histór
 
 ## Resolução de conflitos
 Ao ocorrer conflito, abrir os arquivos indicados pelo Git, comparar os trechos, decidir com o grupo qual conteúdo deve permanecer, remover marcadores, testar e registrar a resolução em commit.
+
+## Participação da equipe
+
+O projeto foi dividido entre quatro integrantes:
+
+- Andrey: desenvolvimento do menu principal.
+- Pietro: cadastro e validação.
+- Fabrício: busca e testes.
+- Gustavo: documentação e gerenciamento de configuração.
+
+Todos os integrantes utilizam branches individuais,
+commits padronizados e pull requests para integrar alterações.

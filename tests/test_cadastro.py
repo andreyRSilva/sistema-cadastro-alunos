@@ -5,7 +5,11 @@ from cadastro import CadastroAlunos
 class TestCadastroAlunos(unittest.TestCase):
     def setUp(self):
         self.cadastro = CadastroAlunos()
+    def test_buscar_aluno_por_matricula(self):
+        self.cadastro.adicionar("Ana Souza", "A001")
 
+        resultado = self.cadastro.buscar("A001")
+        self.assertEqual(resultado["nome"], "Ana Souza")
     def test_adicionar_e_listar_aluno(self):
         self.cadastro.adicionar("Ana Souza", "A001")
         self.assertEqual(

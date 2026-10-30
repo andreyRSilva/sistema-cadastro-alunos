@@ -2,7 +2,8 @@ from cadastro import CadastroAlunos
 
 
 def exibir_menu():
-    print("\n=== Sistema de Cadastro de Alunos ===")
+    print("\n=== Sistema de Cadastro de Alunos | Projeto GCS ===")
+    print("Gerenciamento de alunos - Versao academica")
     print("1. Cadastrar aluno")
     print("2. Listar alunos")
     print("3. Remover aluno")

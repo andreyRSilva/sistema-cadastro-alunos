@@ -1,1 +1,1 @@
-Sistema de Cadastro de Alunos - Busca implementada.
+Sistema de Cadastro de Alunos - Cadastro validado e busca implementada.
